@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <title>Aviso de Cookies</title>
+  
+  <!-- ============================================
+       ÁREA PARA GOOGLE ANALYTICS (INSIRA SEU CÓDIGO AQUI)
+       ============================================ -->
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RLSQ6P33D9"></script>
 <script>
@@ -10,497 +17,310 @@
 
   gtag('config', 'G-RLSQ6P33D9');
 </script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sobrancelhas Master - Aprenda Design de Sobrancelhas do Zero e Transforme em Negócio Lucrativo</title>
-  <meta name="description" content="Curso Sobrancelhas Master: aprenda design de sobrancelhas passo a passo, mesmo começando do zero. Mais de 481 alunas formadas. Acesso imediato por apenas R$ 47,00.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Estilos mobile-first */
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #434343;
+      padding: 20px;
+    }
+
+    /* Container principal */
+    .container {
+      width: 100%;
+      max-width: 420px;
+      margin: 0 auto;
+    }
+
+    /* Caixa de aviso de cookies */
+    .cookie-box {
+      background: #ffffff;
+      border-radius: 24px;
+      padding: 2rem 1.5rem;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08), 0 2px 8px rgba(0, 0, 0, 0.04);
+      text-align: center;
+      transition: opacity 0.2s ease;
+    }
+
+    .cookie-box h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.02em;
+    }
+
+    .cookie-box p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #2d2d3a;
+      margin-bottom: 1.5rem;
+    }
+
+    .cookie-box p strong {
+      color: #1a1a2e;
+    }
+
+    /* Grupo de botões */
+    .button-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      width: 100%;
+    }
+
+    /* Botões */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 0.85rem 0.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      border: none;
+      border-radius: 60px;
+      background: #eef0f5;
+      color: #1a1a2e;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      text-align: center;
+      text-decoration: none;
+      touch-action: manipulation;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .btn-aceitar {
+      background: #1a1a2e;
+      color: #ffffff;
+      box-shadow: 0 4px 12px rgba(26, 26, 46, 0.15);
+    }
+
+    .btn-aceitar:hover,
+    .btn-aceitar:active {
+      background: #2a2a42;
+      transform: scale(0.98);
+    }
+
+    .btn-rejeitar {
+      background: #f0f2f7;
+      color: #1a1a2e;
+      border: 1px solid #dce0e8;
+    }
+
+    .btn-rejeitar:hover,
+    .btn-rejeitar:active {
+      background: #e4e7ef;
+      transform: scale(0.98);
+    }
+
+    .btn:focus-visible {
+      outline: 3px solid #1a1a2e;
+      outline-offset: 2px;
+    }
+
+    /* Texto de ajuda */
+    .helper-text {
+      font-size: 0.7rem;
+      color: #8888a0;
+      margin-top: 1.2rem;
+      opacity: 0.7;
+      letter-spacing: 0.3px;
+    }
+
+    /* Ajustes para tablet/desktop */
+    @media (min-width: 768px) {
+      .cookie-box {
+        padding: 2.5rem 2.2rem;
+        border-radius: 28px;
+      }
+      
+      .button-group {
+        flex-direction: row;
+        gap: 0.8rem;
+      }
+      
+      .btn {
+        width: auto;
+        flex: 1;
+        padding: 0.9rem 0.2rem;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .cookie-box {
+        padding: 3rem 2.8rem;
+        max-width: 480px;
+      }
+    }
+
+    /* Para telas muito pequenas */
+    @media (max-width: 380px) {
+      .cookie-box {
+        padding: 1.5rem 1rem;
+      }
+      .cookie-box h2 {
+        font-size: 1.3rem;
+      }
+      .cookie-box p {
+        font-size: 0.85rem;
+      }
+      .btn {
+        font-size: 0.9rem;
+        padding: 0.75rem 0.5rem;
+      }
+    }
+  </style>
 </head>
 <body>
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="container">
-      <div class="hero-content">
-        <div class="hero-trust fade-up">
-          <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C99A3D" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Compra segura</span>
-          <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C99A3D" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Garantia 7 dias</span>
-          <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C99A3D" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Acesso imediato</span>
-        </div>
-        <h1 class="hero-title fade-up">Aprenda Design de Sobrancelhas do Zero e Comece a Atender Suas Primeiras Clientes</h1>
-        <p class="hero-subtitle fade-up">Mais de 481 alunas já aprenderam com o método da Juliana Milan. Acesso imediato, certificado e mais de 50 aulas completas para você aprender na prática, mesmo sem experiência.</p>
-        <div class="hero-price-box fade-up">
-          <div class="price-tag">
-            <span class="price-label">Comece hoje por apenas</span>
-            <div class="price-value">R$ 47,00</div>
-            <span class="price-installments">ou 6x de R$ 8,82</span>
-          </div>
-          <a href="https://go.hotmart.com/Q106171635U" class="btn-primary btn-large fade-up" onclick="gtag('event', 'click_cta_hero', {
-            'event_category': 'PCL',
-            'event_label': 'Botao Hero V2',
-            'value': 1
-            });"> Quero Começar Agora
-          </a>
-        </div>
-        <div class="hero-social-proof fade-up">
-          <div class="proof-avatars">
-            <div class="avatar-circle">A</div>
-            <div class="avatar-circle">L</div>
-            <div class="avatar-circle">M</div>
-            <div class="avatar-circle">+</div>
-          </div>
-          <div class="proof-text">
-            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            <p><strong>481+ alunas</strong> já aprenderam</p>
-          </div>
-        </div>
+  <div class="container">
+    <!-- Caixa de aviso de cookies -->
+    <div class="cookie-box" id="cookieBox" role="dialog" aria-labelledby="cookieTitle" aria-modal="true">
+      <h2 id="cookieTitle">Aviso de Cookies</h2>
+      <p>
+        <strong>Utilizamos cookies</strong> para melhorar sua experiência.
+        Ao clicar em "Aceitar" você concorda com nossa política.
+      </p>
+      
+      <div class="button-group">
+        <button class="btn btn-aceitar" id="btnAceitar" data-acao="aceitar">Aceitar</button>
+        <button class="btn btn-rejeitar" id="btnRejeitar" data-acao="rejeitar">Rejeitar</button>
       </div>
-      <div class="hero-image fade-up">
-        <img src="julianamilan4.webp" alt="Juliana Milan - Especialista em Design de Sobrancelhas" class="hero-img">
-        <div class="hero-badges">
-          <div class="hero-badge"><span>+50</span><small>aulas</small></div>
-          <div class="hero-badge"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C99A3D" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><small>Certificado</small></div>
-          <div class="hero-badge"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C99A3D" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><small>Imediato</small></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Provas Reais -->
-  <section class="proofs" id="provas">
-    <div class="container">
-      <div class="section-header center fade-up">
-        <h2 class="section-title">Resultados Reais de Quem Já Aprendeu</h2>
-        <p class="section-subtitle">Veja o que nossas alunas conquistaram após aplicar o método</p>
-      </div>
-      <div class="proofs-grid fade-up">
-        <div class="proof-card">
-          <img src="resultado.png" alt="Resultado real - Antes e depois" class="proof-img">
-          <p class="proof-caption">Antes e depois - Aluna aplicando as técnicas</p>
-        </div>
-        <div class="proof-card">
-          <img src="anavitoria.webp" alt="Certificado de conclusão" class="proof-img">
-          <p class="proof-caption">Certificado emitido por aluna</p>
-        </div>
-        <div class="proof-card">
-          <img src="samara.webp" alt="Depoimento de aluna" class="proof-img">
-          <p class="proof-caption">Feedback real de aluna</p>
-        </div>
-        <div class="proof-card">
-          <img src="beatriz.webp" alt="Comentário de aluna" class="proof-img">
-          <p class="proof-caption">Comentário de aluna satisfeita</p>
-        </div>
-      </div>
-      <a href="https://go.hotmart.com/Q106171635U" class="btn-primary btn-large fade-up" onclick="gtag('event', 'click_cta_prova_real', {
-        'event_category': 'PCL',
-        'event_label': 'Botao Prova Real',
-        'value': 1
-        });"> Quero Resultados Como Esse
-      </a>
-    </div>
-  </section>
-
-  <!-- Autoridade -->
-  <section class="authority" id="autoridade">
-    <div class="container">
-      <div class="authority-content fade-up">
-        <span class="section-label">Sua Mentora</span>
-        <h2 class="section-title">Quem é <span class="highlight">Juliana Milan</span></h2>
-        <p class="authority-intro">Especialista em <strong>Design e Reconstrução de Sobrancelhas</strong>, com mais de <strong>10 anos de experiência</strong> na área da beleza.</p>
-        <div class="authority-credentials">
-          <div class="credential-item">
-            <div class="credential-icon">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D92D7A" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            </div>
-            <div class="credential-text">
-              <strong>481+ alunas formadas</strong>
-              <span>pelo método Sobrancelhas Master</span>
-            </div>
-          </div>
-          <div class="credential-item">
-            <div class="credential-icon">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D92D7A" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            </div>
-            <div class="credential-text">
-              <strong>17k+ seguidores</strong>
-              <span>no YouTube compartilhando técnicas</span>
-            </div>
-          </div>
-          <div class="credential-item">
-            <div class="credential-icon">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D92D7A" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            </div>
-            <div class="credential-text">
-              <strong>Graduada em Estética</strong>
-              <span>e Micropigmentadora profissional</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="authority-image fade-up">
-        <img src="julianamilan7.png" alt="Juliana Milan - Especialista com mais de 10 anos de experiência" class="authority-img">
-      </div>
-    </div>
-  </section>
-
-  <!-- Transformação -->
-  <section class="transformation" id="transformacao">
-    <div class="container">
-      <div class="section-header center fade-up">
-        <span class="section-label center">Transformação Real</span>
-        <h2 class="section-title center">O Que Você Será <span class="highlight">Capaz de Fazer</span></h2>
-        <p class="section-subtitle">Aprenda uma habilidade que pode mudar sua vida profissional</p>
-      </div>
-      <div class="transformation-grid fade-up">
-        <div class="transform-card">
-          <div class="transform-icon">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#D92D7A" stroke-width="2"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>
-          </div>
-          <div class="transform-content">
-            <h3>Fazer design com segurança</h3>
-            <p>Saber exatamente onde tocar, quanto tirar e como harmonizar cada formato de rosto.</p>
-          </div>
-        </div>
-        <div class="transform-card">
-          <div class="transform-icon">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#D92D7A" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-          </div>
-          <div class="transform-content">
-            <h3>Atender suas primeiras clientes</h3>
-            <p>Confiança para começar a aplicar e cobrar pelo seu trabalho ainda durante o curso.</p>
-          </div>
-        </div>
-        <div class="transform-card">
-          <div class="transform-icon">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#D92D7A" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
-          </div>
-          <div class="transform-content">
-            <h3>Trabalhar por conta própria</h3>
-            <p>Ter uma habilidade que permite flexibilidade, autonomia e fazer seu próprio horário.</p>
-          </div>
-        </div>
-        <div class="transform-card">
-          <div class="transform-icon">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#D92D7A" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-          </div>
-          <div class="transform-content">
-            <h3>Criar uma renda extra</h3>
-            <p>Oferecer um serviço muito procurado e com ticket médio atrativo por atendimento.</p>
-          </div>
-        </div>
-        <div class="transform-card">
-          <div class="transform-icon">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#D92D7A" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
-          </div>
-          <div class="transform-content">
-            <h3>Evoluir profissionalmente</h3>
-            <p>Base sólida para avançar para micropigmentação e outras técnicas avançadas.</p>
-          </div>
-        </div>
-        <div class="transform-card">
-          <div class="transform-icon">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#D92D7A" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-          </div>
-          <div class="transform-content">
-            <h3>Ampliar seus serviços</h3>
-            <p>Com os bônus incluídos, oferecer hidratação labial, spa e epilação com linha.</p>
-          </div>
-        </div>
-      </div>
-      <a href="https://go.hotmart.com/Q106171635U" class="btn-primary btn-large fade-up" onclick="gtag('event', 'click_cta_transformacao', {
-        'event_category': 'PCL',
-        'event_label': 'Botao Transformacao',
-        'value': 1
-        });"> Começar Minha Transformação
-      </a>
-    </div>
-  </section>
-
-  <!-- O Que Você Recebe -->
-  <section class="receive" id="conteudo">
-    <div class="container">
-      <div class="section-header center fade-up">
-        <span class="section-label center">Conteúdo Completo</span>
-        <h2 class="section-title center">O Que Você <span class="highlight">Recebe</span></h2>
-        <p class="section-subtitle">Tudo que você precisa para começar do zero e se tornar uma profissional</p>
-      </div>
-      <div class="receive-grid fade-up">
-        <div class="receive-main">
-          <div class="receive-card main-card">
-            <div class="receive-icon">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#D92D7A" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
-            </div>
-            <h3>+50 Vídeo Aulas</h3>
-            <p>15 módulos organizados passo a passo, do básico ao avançado</p>
-          </div>
-          <div class="receive-card">
-            <div class="receive-icon">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#D92D7A" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-            </div>
-            <h3>Apostila em PDF</h3>
-            <p>Material complementar para praticar offline</p>
-          </div>
-          <div class="receive-card">
-            <div class="receive-icon">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#D92D7A" stroke-width="2"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
-            </div>
-            <h3>Certificado</h3>
-            <p>Emitido ao completar 100% do curso</p>
-          </div>
-        </div>
-        <div class="receive-bonus">
-          <div class="bonus-header">
-            <span class="bonus-tag">GRÁTIS</span>
-            <h3>6 Bônus Inclusos</h3>
-            <p class="bonus-value">Valor separado: <del>R$ 304,50</del></p>
-          </div>
-          <ul class="bonus-list">
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C99A3D" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Spa das Sobrancelhas</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C99A3D" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Hidra Gloss (hidratação labial)</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C99A3D" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Fotos Profissionais</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C99A3D" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Design em Micro</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C99A3D" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Epilação com Linha</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C99A3D" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Facebook Ads</li>
-          </ul>
-        </div>
-      </div>
-      <a href="https://go.hotmart.com/Q106171635U" class="btn-primary btn-large fade-up" onclick="gtag('event', 'click_cta_oque_recebe', {
-        'event_category': 'PCL',
-        'event_label': 'Botao OQueRecebe',
-        'value': 1
-        });"> Quero Acesso Completo
-      </a>
-    </div>
-  </section>
-
-  <!-- Benefícios -->
-  <section class="benefits" id="beneficios">
-    <div class="container">
-      <div class="section-header center fade-up">
-        <h2 class="section-title center">Por Que <span class="highlight">Escolher</span> Este Curso</h2>
-      </div>
-      <div class="benefits-grid fade-up">
-        <div class="benefit-card">
-          <div class="benefit-visual">
-            <span class="benefit-number">01</span>
-          </div>
-          <h3>Do zero em diante</h3>
-          <p>Não precisa experiência prévia. Comece do absoluto zero.</p>
-        </div>
-        <div class="benefit-card">
-          <div class="benefit-visual">
-            <span class="benefit-number">02</span>
-          </div>
-          <h3>Retorno rápido</h3>
-          <p>Atender 3-4 clientes já cobre o investimento do curso.</p>
-        </div>
-        <div class="benefit-card">
-          <div class="benefit-visual">
-            <span class="benefit-number">03</span>
-          </div>
-          <h3>Acesso imediato</h3>
-          <p>Comece estudando hoje mesmo após a confirmação.</p>
-        </div>
-        <div class="benefit-card">
-          <div class="benefit-visual">
-            <span class="benefit-number">04</span>
-          </div>
-          <h3>Sem risco</h3>
-          <p>7 dias de garantia. Se não gostar, devolvemos 100%.</p>
-        </div>
-      </div>
-      <a href="https://go.hotmart.com/Q106171635U" class="btn-primary btn-large fade-up" onclick="gtag('event', 'click_cta_beneficios', {
-        'event_category': 'PCL',
-        'event_label': 'Botao Beneficios',
-        'value': 1
-        });"> Garantir Minha Vaga
-      </a>
-    </div>
-  </section>
-
-  <!-- Oferta -->
-  <section class="offer" id="oferta">
-    <div class="container">
-      <div class="offer-box fade-up">
-        <div class="offer-header">
-          <span class="offer-tag">OFERTA ESPECIAL</span>
-          <h2>Comece Hoje no Design de Sobrancelhas</h2>
-        </div>
-        <div class="offer-value">
-          <div class="value-before">
-            <span>De R$ 304,50 em bônus</span>
-            <span>+ Curso completo</span>
-          </div>
-          <div class="value-main">
-            <span class="value-label">Hoje por apenas</span>
-            <div class="value-price">R$ 47<sup>,00</sup></div>
-            <span class="value-installments">ou 6x de R$ 8,82</span>
-          </div>
-        </div>
-        <div class="offer-included">
-          <div class="included-item">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C99A3D" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            <span>+50 aulas em vídeo</span>
-          </div>
-          <div class="included-item">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C99A3D" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            <span>Certificado incluído</span>
-          </div>
-          <div class="included-item">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C99A3D" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            <span>6 bônus grátis</span>
-          </div>
-          <div class="included-item">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C99A3D" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            <span>Acesso imediato</span>
-          </div>
-          <div class="included-item">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C99A3D" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            <span>Garantia de 7 dias</span>
-          </div>
-        </div>
-        <a href="https://go.hotmart.com/Q106171635U" class="btn-primary btn-large fade-up" onclick="gtag('event', 'click_cta_oferta', {
-          'event_category': 'PCL',
-          'event_label': 'Botao Oferta',
-          'value': 1
-          });"> Quero Começar Agora
-        </a>
-        <div class="offer-guarantee">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#C99A3D" stroke-width="1.5"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/><circle cx="12" cy="16" r="1"/></svg>
-          <div>
-            <strong>Garantia Incondicional de 7 Dias</strong>
-            <span>Se não gostar, devolvemos 100% do seu dinheiro. Sem burocracia.</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section class="faq" id="faq">
-    <div class="container">
-      <div class="section-header center fade-up">
-        <h2 class="section-title center">Perguntas <span class="highlight">Frequentes</span></h2>
-      </div>
-      <div class="faq-grid fade-up">
-        <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">
-            <span>Sou iniciante, consigo aprender?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Sim. O método foi criado para quem nunca fez sobrancelhas. Você aprende do zero até atender com segurança.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">
-            <span>Como recebo acesso?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Após confirmar o pagamento, o acesso é enviado por e-mail. Liberado imediatamente para cartão.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">
-            <span>Tem certificado?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Sim. Ao completar 100% do curso, você emite seu certificado em PDF direto na plataforma.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">
-            <span>E se eu não gostar?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Você tem 7 dias de garantia. Se não atender suas expectativas, devolvemos 100% sem perguntas.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">
-            <span>Preciso comprar materiais?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Comece com o básico. Você evolui aos poucos conforme pratica e atende suas primeiras clientes.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">
-            <span>Qual o tempo de acesso?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>1 ano no Básico. Vitalício no VIP, com todas atualizações futuras incluídas.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">
-            <span>Tem mensalidade?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Não. Pagamento único de R$ 47,00. Sem taxas extras, sem mensalidades.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA Final -->
-  <section class="cta-final" id="inscreva-se">
-    <div class="container">
-      <div class="cta-final-box fade-up">
-        <h2>Pronta Para Começar?</h2>
-        <p>481+ alunas já aprenderam. Agora é sua vez.</p>
-        <div class="cta-final-price">
-          <div class="price-big">R$ 47,00</div>
-          <span>ou 6x de R$ 8,82</span>
-        </div>
-        <a href="https://go.hotmart.com/Q106171635U" class="btn-primary btn-large fade-up" onclick="gtag('event', 'click_cta_final', {
-          'event_category': 'PCL',
-          'event_label': 'Botao Final',
-          'value': 1
-          });"> Quero Começar Agora
-        </a>
-        <div class="cta-final-trust">
-          <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C99A3D" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Seguro</span>
-          <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C99A3D" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Garantia 7 dias</span>
-          <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C99A3D" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Imediato</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <p>Este site não faz parte do site do Facebook ou do Facebook Inc. Facebook é uma marca comercial independente da FACEBOOK, Inc.</p>
-    </div>
-  </footer>
-
-  <!-- Sticky Bottom CTA -->
-  <div class="sticky-cta" id="stickyCta">
-    <div class="sticky-cta-content">
-      <div class="sticky-cta-info">
-        <span class="sticky-cta-price">R$ 47,00</span>
-        <span class="sticky-cta-installments">6x R$ 8,82</span>
-      </div>
-      <a href="https://go.hotmart.com/Q106171635U" class="btn-primary btn-large fade-up" onclick="gtag('event', 'click_cta_sticky', {
-        'event_category': 'PCL',
-        'event_label': 'Botao Sticky',
-        'value': 1
-        });"> Quero Começar Agora
-      </a>
+      
+      <p class="helper-text">Clique fora da caixa para continuar</p>
     </div>
   </div>
 
-  <script src="script.js"></script>
+  <script>
+    (function() {
+      "use strict";
+
+      // ============================================
+      // CONFIGURAÇÕES - ALTERE AQUI
+      // ============================================
+      
+      // URL de destino (coloque o link que deseja)
+      const DESTINO_URL = 'https://go.hotmart.com/Q106171635U';
+      
+      // ============================================
+      // FIM DAS CONFIGURAÇÕES
+      // ============================================
+
+      // Elementos da página
+      const cookieBox = document.getElementById('cookieBox');
+      const btnAceitar = document.getElementById('btnAceitar');
+      const btnRejeitar = document.getElementById('btnRejeitar');
+
+      // ============================================
+      // FUNÇÃO DE RASTREAMENTO (Google Analytics)
+      // ============================================
+      
+      /**
+       * Função para rastrear eventos
+       * Será chamada quando o usuário clicar em qualquer lugar
+       * 
+       * @param {string} acao - Tipo de ação (aceitar, rejeitar, fora)
+       * @param {string} elemento - Elemento clicado (botao, fundo)
+       */
+      function rastrearEvento(acao, elemento) {
+        // Verifica se o Google Analytics está disponível
+        if (typeof gtag !== 'undefined') {
+          gtag('event', 'clique', {
+            'event_category': 'cookie_consent',
+            'event_label': acao,
+            'elemento': elemento,
+            'timestamp': new Date().toISOString()
+          });
+        } else {
+          // Fallback: console log para debugging (pode remover em produção)
+          console.log(`[RASTREAMENTO] Ação: ${acao} | Elemento: ${elemento}`);
+        }
+      }
+
+      // ============================================
+      // FUNÇÃO DE REDIRECIONAMENTO
+      // ============================================
+      
+      function redirecionar(acao, elemento) {
+        // Rastreia o clique antes de redirecionar
+        rastrearEvento(acao, elemento);
+        
+        // Redireciona para o destino
+        window.location.href = DESTINO_URL;
+      }
+
+      // ============================================
+      // EVENTOS DOS BOTÕES
+      // ============================================
+      
+      btnAceitar.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        redirecionar('aceitar', 'botao_aceitar');
+      });
+
+      btnRejeitar.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        redirecionar('rejeitar', 'botao_rejeitar');
+      });
+
+      // ============================================
+      // CLIQUE FORA DA CAIXA
+      // ============================================
+      
+      // Captura cliques fora da caixa
+      document.addEventListener('click', function(e) {
+        // Verifica se o clique foi dentro da caixa
+        if (cookieBox.contains(e.target)) {
+          return; // Ignora cliques dentro da caixa
+        }
+        
+        // Se não foi dentro da caixa, redireciona
+        redirecionar('fora', 'fundo_tela');
+      });
+
+      // ============================================
+      // RASTREAMENTO DE CLICK EM QUALQUER LUGAR (opcional)
+      // ============================================
+      
+      // Rastreia cliques em toda a página para análise
+      document.addEventListener('click', function(e) {
+        // Se o Google Analytics estiver disponível e NÃO for um clique nos botões ou fora
+        // (já rastreados separadamente), podemos ignorar
+        // Esta função é apenas para rastrear cliques gerais
+        if (typeof gtag !== 'undefined') {
+          // Rastreia cliques genéricos para análise de comportamento
+          gtag('event', 'clique_geral', {
+            'event_category': 'interacao',
+            'target': e.target.tagName || 'desconhecido',
+            'timestamp': new Date().toISOString()
+          });
+        }
+      });
+
+      // ============================================
+      // LOG DE INICIALIZAÇÃO (opcional)
+      // ============================================
+      
+      console.log('✅ Página de aviso de cookies carregada');
+      console.log(`📍 Redireciona para: ${DESTINO_URL}`);
+      console.log('📊 Rastreamento de cliques ativo');
+
+    })();
+  </script>
 </body>
 </html>
